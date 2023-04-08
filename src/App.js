@@ -64,7 +64,6 @@ function App() {
   return (
     <CartProvider>
       {showCart && <Cart handleToggleCart={handleToggleCart}/>}
-      {showCart && <Cart handleToggleCart={handleToggleCart} />}
       <RouterProvider router={router} />
     </CartProvider>
   );
